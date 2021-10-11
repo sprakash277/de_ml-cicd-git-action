@@ -13,7 +13,7 @@
 
 from sklearn import datasets, linear_model, tree
 import pandas as pd
-# Sample code2
+# Sample code3
 iris = datasets.load_iris()
 print("Feature Data: \n", iris.data[::50], "\nTarget Classes: \n", iris.target[::50])
 
