@@ -42,7 +42,7 @@ jobs:
 
       - name: Deploy the code and Deploy integration test
         run: |
-          databricks repos update --path=/Repos/Staging/de_ml-cicd-git-action --branch=${{ env.GITHUB_HEAD_REF_SLUG }}
+          databricks repos update --path=/Repos/Staging/de-ml-cicd-git-action --branch=${{ env.GITHUB_HEAD_REF_SLUG }}
           dbx deploy --jobs=de_ml-cicd-git-action-sample-integration-test --files-only
 
       - name: Run integration test
