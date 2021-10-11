@@ -13,5 +13,5 @@ model_name = "de_ml-cicd-actions-model"
 client.transition_model_version_stage(
   name=model_name,
   version=1,
-  stage="Staging",
+  stage="Production",
 )
