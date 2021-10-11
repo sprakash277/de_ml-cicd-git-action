@@ -1,0 +1,9 @@
+{
+  "environments": {
+    "default": {
+      "profile": "DEFAULT",
+      "workspace_dir": "/Shared/dbx/sumit/de_ml_cicd_git_action",
+      "artifact_location": "dbfs:/Shared/dbx/sumit/projects/de_ml_cicd_git_action"
+    }
+  }
+}
