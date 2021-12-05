@@ -40,8 +40,10 @@
                 "spark_python_task": {
                     "python_file": "tests/integration/sample_test.py"
                 }
-            },
-            {
+            }
+            
+          /**
+          ,{
                 "name": "de_ml-cicd-git-action-promote-ml-model",
                 "new_cluster": {
                     "spark_version": "7.3.x-cpu-ml-scala2.12",
@@ -58,7 +60,7 @@
                 "spark_python_task": {
                     "python_file": "notebooks/mlflow101/promote_model.py"
                 }
-            }
+            } */
         ]
     }
 }
